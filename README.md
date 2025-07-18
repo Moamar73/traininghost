@@ -1,3 +1,3 @@
-# Training Site
+# Training Site Beautiful
 
-Simple Next.js training site project.
+Landing page with Tailwind CSS for training service in Europe.
