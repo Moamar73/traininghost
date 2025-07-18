@@ -1,5 +1,3 @@
-import '../styles/globals.css';
-
 export default function HomePage() {
   return (
     <div className="font-sans text-gray-800">
@@ -10,8 +8,6 @@ export default function HomePage() {
           نقدم خدمات احترافية لتنفيذ دوراتكم التدريبية في لندن و7 مدن أوروبية، بالنيابة عن مراكز التدريب في الخليج والعالم العربي.
         </p>
       </section>
-
-      {/* Services Section */}
       <section className="py-16 px-4 bg-gray-100">
         <h2 className="text-2xl font-bold text-center mb-10">الخدمات التي نقدمها</h2>
         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -31,8 +27,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      {/* Cities */}
       <section className="py-16 px-4">
         <h2 className="text-2xl font-bold text-center mb-10">المدن التي نخدمها</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center max-w-4xl mx-auto">
@@ -50,8 +44,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      {/* CTA */}
       <section className="bg-indigo-600 text-white py-16 text-center px-4">
         <h3 className="text-2xl font-bold mb-4">هل تمثل مركز تدريب؟</h3>
         <p className="mb-6">دعنا ننفذ دورتك القادمة في أوروبا باسم مركزك وبأفضل جودة.</p>
